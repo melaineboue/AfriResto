@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ImagesPresentationRestaurantComponent } from './components/images-presentation-restaurant/images-presentation-restaurant.component';
 import { from } from 'rxjs';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { PagePrincipaleComponent } from './components/page-principale/page-principale.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImagesPresentationRestaurantComponent,
-    NavBarComponent
+    NavBarComponent,
+    PagePrincipaleComponent
   ],
   imports: [
     BrowserModule,
